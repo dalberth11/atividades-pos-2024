@@ -4,49 +4,78 @@
     <prato id="P01">
             <nome>Miojo</nome>
             <Descricao>O macarrão instantâneo ou massa instantânea é um prato típico da culinária japonesa constituído de macarrão pré-cozido, normalmente lámen, que pode ser preparado apenas com o acréscimo de água fervida.</Descricao>
-            <ingredientes>Água fervida e macarrão</ingredientes>
-            <preço>7 reais</preço>
-            <calorias>380 kcal</calorias>
-            <tempo>3 min</tempo>
+            <ingredientes>
+                <ingrediente> Água fervida </ingrediente>
+                <ingrediente>  macarrão </ingrediente>
+            </ingredientes>
+            <preço>7,00R$</preço>
+            <calorias>380kcal</calorias>
+            <tempoPreparo>3 min</tempoPreparo>
     </prato>
     <prato id="P02">
         <nome>X-Frango</nome>
         <Descricao>Prato típico brasileiro</Descricao>
-        <ingredientes>Pão,Hamburguer,Tomate,Alface,Frango,presuto,queijo,molho</ingredientes>
-        <preço>10 reais</preço>
-        <calorias>780 kcal</calorias>
-        <tempo>10 min</tempo>
-</prato>
+        <ingredientes>
+            <ingrediente> Pão </ingrediente>
+            <ingrediente> Hamburguer </ingrediente>
+            <ingrediente> Tomate </ingrediente>
+            <ingrediente> Alface </ingrediente>
+            <ingrediente> Frango </ingrediente>
+            <ingrediente> presuto </ingrediente>
+            <ingrediente> queijo </ingrediente>
+            <ingrediente> molho </ingrediente>
+        </ingredientes>
+        <preço> 10,00R$</preço>
+        <calorias>780kcal</calorias>
+        <tempoPreparo>10 min</tempoPreparo>
+    </prato>
 
     <prato id="P03">
         <nome>Bolo de cenoura</nome>
         <Descricao>Bolo típico brasileiro</Descricao>
-        <ingredientes>2cenouras descascadas e picadas grosseiramente
-            1xícara (chá) de Margarina Qualy Aéra (mais um pouco para untar a forma)
-            3ovos
-            1½xícara (chá) de açúcar
-            2xícaras (chá) de farinha de trigo (mais um pouco para enfarinhar a forma)
-            1colher (sopa) de fermento químico em pó</ingredientes>
-        <preço>25 reais</preço>
-        <calorias>415 kcal</calorias>
-        <tempo>45 min</tempo>
+        <ingredientes>
+            <ingrediente> 2cenouras descascadas e picadas grosseiramente </ingrediente>
+            <ingrediente> 1xícara (chá) de Margarina Qualy Aéra (mais um pouco para untar a forma) </ingrediente>
+            <ingrediente> 3ovos </ingrediente>
+            <ingrediente>  1½xícara (chá) de açúcar </ingrediente>
+            <ingrediente> 2xícaras (chá) de farinha de trigo (mais um pouco para enfarinhar a forma) </ingrediente>
+            <ingrediente>  1colher (sopa) de fermento químico em pó </ingrediente>
+         </ingredientes>
+        <preço>25,00R$</preço>
+        <calorias>415kcal</calorias>
+        <tempoPreparo>45 min</tempoPreparo>
     </prato>
 
     <prato id="P04">
         <nome>Arroz</nome>
         <Descricao>Não pode faltar no almoço, comida que combina perfeitamente com um feijão</Descricao>
-        <ingredientes>1 xícara de arroz lavado, 1 dente de alho amassado, azeite o suficiente, 2 xícaras de água fervente, 1/4 de cebola picada, sal a gosto</ingredientes>
-        <preço>10 reais</preço>
-        <calorias>130 kcal</calorias>
-        <tempo>20 min</tempo>
+        <ingredientes>
+             <ingrediente> 1 xícara de arroz lavado  </ingrediente>
+             <ingrediente> 1 dente de alho amassado  </ingrediente>
+             <ingrediente> azeite o suficiente  </ingrediente>
+             <ingrediente> 2 xícaras de água fervente  </ingrediente>
+             <ingrediente> 1/4 de cebola picada  </ingrediente>
+             <ingrediente> sal a gosto  </ingrediente>
+             </ingredientes>
+        <preço>10,00R$</preço>
+        <calorias>130kcal</calorias>
+        <tempoPreparo>20 min</tempo>
     </prato>
 
     <prato id="P05">
         <nome>Pastel</nome>
         <Descricao>Prato típico brasileiro</Descricao>
-        <ingredientes>1 kg de farinha de trigo, 1 colher (sopa) sal, 1/2 dose de pinga, 250 ml de água, 1/2 xícara (chá) de óleo, 1 ovo, 1 colher (chá) vinagre</ingredientes>
-        <preço>9 reais</preço>
-        <calorias>93 kcal</calorias>
-        <tempo>30 min</tempo>
+        <ingredientes>
+            <ingrediente> 1 kg de farinha de trigo  </ingrediente>
+            <ingrediente> 1 colher (sopa) sal </ingrediente>
+            <ingrediente> 1/2 dose de pinga  </ingrediente>
+            <ingrediente> 250 ml de água </ingrediente>
+            <ingrediente> 1/2 xícara (chá) de óleo  </ingrediente>
+            <ingrediente> 1 ovo </ingrediente>
+            <ingrediente> 1 colher (chá) vinagre </ingrediente>
+        </ingredientes>
+        <preço>9,00R$</preço>
+        <calorias>93kcal</calorias>
+        <tempoPreparo>30 min</tempo>
     </prato>
 </cardapio>

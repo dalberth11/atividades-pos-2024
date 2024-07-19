@@ -8,6 +8,6 @@
 + <! ELEMENT ingrediente (#PCDATA) >
 + <! ELEMENT preco (#PCDATA) >
 + <! ELEMENT calorias (#PCDATA) >
-+ <! ELEMENT tempo (#PCDATA) >
++ <! ELEMENT tempoPreparo (#PCDATA) >
 + <!ATTLIST preco moeda (BRL | USD) "BRL" >
 + <!ENTIDADE reais "R$">
