@@ -56,10 +56,10 @@
              <ingrediente> 2 xícaras de água fervente  </ingrediente>
              <ingrediente> 1/4 de cebola picada  </ingrediente>
              <ingrediente> sal a gosto  </ingrediente>
-             </ingredientes>
+        </ingredientes>
         <preço>10,00R$</preço>
         <calorias>130kcal</calorias>
-        <tempoPreparo>20 min</tempo>
+        <tempoPreparo>20 min</tempoPreparo>
     </prato>
 
     <prato id="P05">
@@ -76,6 +76,6 @@
         </ingredientes>
         <preço>9,00R$</preço>
         <calorias>93kcal</calorias>
-        <tempoPreparo>30 min</tempo>
+        <tempoPreparo>30 min</tempoPreparo>
     </prato>
 </cardapio>
