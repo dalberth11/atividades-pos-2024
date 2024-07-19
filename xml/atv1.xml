@@ -1,0 +1,52 @@
+<?xml version="1.0" codificaçao ="utf-8"?>
+<! DOCTYPE cardapio SYSTEM "definicoes.dtd" >
+<cardapio>
+    <prato id="P01">
+            <nome>Miojo</nome>
+            <Descricao>O macarrão instantâneo ou massa instantânea é um prato típico da culinária japonesa constituído de macarrão pré-cozido, normalmente lámen, que pode ser preparado apenas com o acréscimo de água fervida.</Descricao>
+            <ingredientes>Água fervida e macarrão</ingredientes>
+            <preço>7 reais</preço>
+            <calorias>380 kcal</calorias>
+            <tempo>3 min</tempo>
+    </prato>
+    <prato id="P02">
+        <nome>X-Frango</nome>
+        <Descricao>Prato típico brasileiro</Descricao>
+        <ingredientes>Pão,Hamburguer,Tomate,Alface,Frango,presuto,queijo,molho</ingredientes>
+        <preço>10 reais</preço>
+        <calorias>780 kcal</calorias>
+        <tempo>10 min</tempo>
+</prato>
+
+    <prato id="P03">
+        <nome>Bolo de cenoura</nome>
+        <Descricao>Bolo típico brasileiro</Descricao>
+        <ingredientes>2cenouras descascadas e picadas grosseiramente
+            1xícara (chá) de Margarina Qualy Aéra (mais um pouco para untar a forma)
+            3ovos
+            1½xícara (chá) de açúcar
+            2xícaras (chá) de farinha de trigo (mais um pouco para enfarinhar a forma)
+            1colher (sopa) de fermento químico em pó</ingredientes>
+        <preço>25 reais</preço>
+        <calorias>415 kcal</calorias>
+        <tempo>45 min</tempo>
+    </prato>
+
+    <prato id="P04">
+        <nome>Arroz</nome>
+        <Descricao>Não pode faltar no almoço, comida que combina perfeitamente com um feijão</Descricao>
+        <ingredientes>1 xícara de arroz lavado, 1 dente de alho amassado, azeite o suficiente, 2 xícaras de água fervente, 1/4 de cebola picada, sal a gosto</ingredientes>
+        <preço>10 reais</preço>
+        <calorias>130 kcal</calorias>
+        <tempo>20 min</tempo>
+    </prato>
+
+    <prato id="P05">
+        <nome>Pastel</nome>
+        <Descricao>Prato típico brasileiro</Descricao>
+        <ingredientes>1 kg de farinha de trigo, 1 colher (sopa) sal, 1/2 dose de pinga, 250 ml de água, 1/2 xícara (chá) de óleo, 1 ovo, 1 colher (chá) vinagre</ingredientes>
+        <preço>9 reais</preço>
+        <calorias>93 kcal</calorias>
+        <tempo>30 min</tempo>
+    </prato>
+</cardapio>
