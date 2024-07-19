@@ -8,7 +8,7 @@
                 <ingrediente> Água fervida </ingrediente>
                 <ingrediente>  macarrão </ingrediente>
             </ingredientes>
-            <preco>7,00R$</preco>
+            <preço>7,00R$</preço>
             <calorias>380kcal</calorias>
             <tempoPreparo>3 min</tempoPreparo>
     </prato>
@@ -25,7 +25,7 @@
             <ingrediente> queijo </ingrediente>
             <ingrediente> molho </ingrediente>
         </ingredientes>
-        <preco> 10,00R$</preco>
+        <preço> 10,00R$</preço>
         <calorias>780kcal</calorias>
         <tempoPreparo>10 min</tempoPreparo>
     </prato>
@@ -41,7 +41,7 @@
             <ingrediente> 2xícaras (chá) de farinha de trigo (mais um pouco para enfarinhar a forma) </ingrediente>
             <ingrediente>  1colher (sopa) de fermento químico em pó </ingrediente>
          </ingredientes>
-        <preco>25,00R$</preco>
+        <preço>25,00R$</preço>
         <calorias>415kcal</calorias>
         <tempoPreparo>45 min</tempoPreparo>
     </prato>
@@ -57,7 +57,7 @@
              <ingrediente> 1/4 de cebola picada  </ingrediente>
              <ingrediente> sal a gosto  </ingrediente>
         </ingredientes>
-        <preco>10,00R$</preco>
+        <preço>10,00R$</preço>
         <calorias>130kcal</calorias>
         <tempoPreparo>20 min</tempoPreparo>
     </prato>
@@ -74,7 +74,7 @@
             <ingrediente> 1 ovo </ingrediente>
             <ingrediente> 1 colher (chá) vinagre </ingrediente>
         </ingredientes>
-        <preco>9,00R$</preco>
+        <preço>9,00R$</preço>
         <calorias>93kcal</calorias>
         <tempoPreparo>30 min</tempoPreparo>
     </prato>

@@ -6,8 +6,8 @@
 + <! ELEMENT nome (#PCDATA) >
 + <! ELEMENT descricao (#PCDATA) >
 + <! ELEMENT ingrediente (#PCDATA) >
-+ <! ELEMENT preco (#PCDATA) >
++ <! ELEMENT preço (#PCDATA) >
 + <! ELEMENT calorias (#PCDATA) >
 + <! ELEMENT tempoPreparo (#PCDATA) >
-+ <!ATTLIST preco moeda (BRL | USD) "BRL" >
++ <!ATTLIST preço moeda (BRL | USD) "BRL" >
 + <!ENTIDADE reais "R$">
