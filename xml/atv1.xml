@@ -1,4 +1,4 @@
-<?xml version="1.0" codificaçao ="utf-8"?>
+<?xml version="1.0" codificacao ="utf-8"?>
 <! DOCTYPE cardapio SYSTEM "definicoes.dtd" >
 <cardapio>
     <prato id="P01">
