@@ -1,0 +1,21 @@
+ [
+<!ELEMENT imobiliaria (imovel+) >
+<!ELEMENT imovel (descricao,proprietario,endereco,caracteristicas,valor)>
+<!ELEMENT proprietario (nome, (email | telefone)+)>
+<!ELEMENT endereco (rua, bairro, cidade, numero?)>
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+
+]>
