@@ -1,48 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:c="http://cardapio.org"
-        targetNamespace="http://cardapio.org" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:d="http://cardapio.org"
+           targetNamespace="http://cardapio.org"
+           elementFormDefault="qualified">
 
-    <element name="nome" type="string"/>
-    <element name="descricao" type="string"/>
-    <element name="ingrediente" type="string"/>
-    <element name="tempoPreparo" type="string"/>
-    <element name="calorias" type="integer"/>
+    
+    <xs:element name="nome" type="xs:string"/>
+    <xs:element name="descricao" type="xs:string"/>
+    <xs:element name="ingrediente" type="xs:string"/>
+    <xs:element name="tempoPreparo" type="xs:string"/>
+    <xs:element name="calorias" type="xs:integer"/>
 
-    <element name="preco">
-        <simpleType>
-            <restriction base="decimal">
-                <fractionDigits value="2"/>
-            </restriction>
-        </simpleType>
-    </element>
+   
+    <xs:element name="preco">
+        <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+                <xs:fractionDigits value="2"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
 
-    <element name="ingredientes">
-        <complexType>
-            <sequence>
-                <element ref="c:ingrediente" minOccurs="1" maxOccurs="unbounded"></element>
-            </sequence>
-        </complexType>
-    </element>
+    <xs:element name="ingredientes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="d:ingrediente" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
+    
+    <xs:element name="cardapio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="prato" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="d:nome"/>
+                            <xs:element ref="d:descricao"/>
+                            <xs:element ref="d:ingredientes"/>
+                            <xs:element ref="d:preco"/>
+                            <xs:element ref="d:calorias"/>
+                            <xs:element ref="d:tempoPreparo"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
-    <element name="cardapio">
-        <complexType>
-            <sequence>
-                <element name="prato" maxOccurs="unbounded">
-                    <complexType>
-                        <sequence>
-                            <element ref="c:nome"></element>
-                            <element ref="c:descricao"></element>
-                            <element ref="c:ingredientes"></element>
-                            <element ref="c:preco"></element>
-                            <element ref="c:calorias"></element>
-                            <element ref="c:tempoPreparo"></element>
-                        </sequence>
-                        <attribute name="id" type="positiveInteger" use="required"></attribute>
-                    </complexType>
-                </element>
-            </sequence>
-        </complexType>
-    </element>
-
-</schema>
+</xs:schema>
