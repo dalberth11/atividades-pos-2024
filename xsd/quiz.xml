@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+
+<quiz versao="3">
+    <disciplina>Educação Física</disciplina>
+    <professor>
+        <nome>Marcão</nome>
+        <matrícula>69109633</matrícula>
+    </professor>
+    <turma>InfoWeb 4v</turma>
+    <data>11 de novembro</data>
+    <questões>
+        <questão>
+            <enunciado>daquele jeitão</enunciado>
+            <pontuação>10</pontuação>
+            <alternativas>
+                <alternativa correta="sim">D</alternativa>
+                <alternativa correta="sim">C</alternativa>
+                <alternativa correta="nao">B</alternativa>
+                <alternativa correta="nao">A</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>sla</enunciado>
+            <pontuação>100</pontuação>
+            <alternativas>
+                <alternativa correta="sim">A</alternativa>
+                <alternativa correta="nao">C</alternativa>
+                <alternativa correta="nao">B</alternativa>
+                <alternativa correta="sim">D</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>neymar lindo</enunciado>
+            <pontuação>50</pontuação>
+            <alternativas>
+                <alternativa correta="sim">A</alternativa>
+                <alternativa correta="nao">B</alternativa>
+                <alternativa correta="sim">C</alternativa>
+                <alternativa correta="nao">D</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>ney eu te amo</enunciado>
+            <pontuação>11</pontuação>
+            <alternativas>
+                <alternativa correta="nao">D</alternativa>
+                <alternativa correta="nao">B</alternativa>
+                <alternativa correta="nao">A</alternativa>
+                <alternativa correta="sim">C</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>messi melhor do mundo</enunciado>
+            <pontuação>30</pontuação>
+            <alternativas>
+                <alternativa correta="sim">B</alternativa>
+                <alternativa correta="sim">C</alternativa>
+                <alternativa correta="sim">D</alternativa>
+                <alternativa correta="nao">A</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+
+    
