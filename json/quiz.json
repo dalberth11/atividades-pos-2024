@@ -1,0 +1,117 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Educação Física",
+      "professor": {
+        "nome": "Prof. Marcão",
+        "matrícula": "696969"
+      },
+      "turma": "InfoWeb4v ",
+      "data": "02 de agosto de 2024",
+      "questões": {
+        "questão": [
+          {
+            "enunciado": "O que é fixo no futsal?",
+            "pontuação": "10 pontos",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim"
+                },
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "sim"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "o que é ala no futsal?",
+            "pontuação": "8 pontos",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim"
+                },
+                {
+                  "correta": "sim"
+                },
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "nao"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "O que é pivô no futsal?",
+            "pontuação": "5 pontos",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim"
+                },
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "sim"
+                },
+                {
+                  "correta": "nao"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "O que é goleiro no futsal?",
+            "pontuação": "3 pontos",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim"
+                },
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "nao"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "O que é treinador no futsal?",
+            "pontuação": "1 pontos",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "nao"
+                },
+                {
+                  "correta": "sim"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+  

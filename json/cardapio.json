@@ -1,0 +1,97 @@
+{
+    "cardapio": {
+      "prato": [
+        {
+          "id": "1",
+          "nome": "Miojo",
+          "descricao": "O macarrão instantâneo ou massa instantânea é um prato típico da culinária japonesa constituído de macarrão pré-cozido, normalmente lámen, que pode ser preparado apenas com o acréscimo de água fervida.",
+          "ingredientes": {
+            "ingrediente": [
+              "Água fervida",
+              "Macarrão"
+            ]
+          },
+          "preco": "R$ 2.00",
+          "calorias": "380kcal",
+          "tempoPreparo": "3 min"
+        },
+        {
+          "id": "2",
+          "nome": "X-frango",
+          "descricao": "Prato típico brasileiro",
+          "ingredientes": {
+            "ingrediente": [
+              "Pão",
+              "Hamburguer",
+              "Alface",
+              "Tomate",
+              "Frango",
+              "Presuto",
+              "Queijo",
+              "Molho"
+            ]
+          },
+          "preco": "R$ 10.00",
+          "calorias": "780kcal",
+          "tempoPreparo": "10 minutos"
+        },
+        {
+            "id": "3",
+            "nome": "Bolo de cenoura",
+            "descricao": "Bolo típico brasileiro",
+            "ingredientes": {
+              "ingrediente": [
+                "2 cenouras descascadas e picadas grosseiramente",
+                "1 xícara (chá) de Margarina Qualy Aéra (mais um pouco para untar a forma)",
+                "3 ovos",
+                "1½ xícara (chá) de açúcar",
+                "2 xícaras (chá) de farinha de trigo (mais um pouco para enfarinhar a forma)",
+                "1 colher (sopa) de fermento químico em pó"
+              ]
+            },
+            "preco": "R$ 25.00",
+            "calorias": "415kcal",
+            "tempoPreparo": "45 minutos"
+          },
+          {
+            "id": "4",
+            "nome": "Pastel",
+            "descricao": "Prato típico brasileiro",
+            "ingredientes": {
+              "ingrediente": [
+                "1 kg de farinha de trigo",
+                "1 colher (sopa) sal",
+                "1/2 dose de pinga",
+                "250 ml de água",
+                "1/2 xícara (chá) de óleo",
+                "1 ovo",
+                "1 colher (chá) vinagre"
+              ]
+            },
+            "preco": "R$ 9.00",
+            "calorias": "93kcal",
+            "tempoPreparo": "30 minutos"
+          },
+          {
+            "id": "5",
+            "nome": "Arroz",
+            "descricao": "Não pode faltar no almoço, comida que combina perfeitamente com um feijão",
+            "ingredientes": {
+              "ingrediente": [
+                "1 xícara de arroz lavado",
+                "1 dente de alho amassado",
+                "azeite o suficiente ",
+                "2 xícaras de água fervente",
+                "1/4 de cebola picada",
+                "sal a gosto"
+              ]
+            },
+            "preco": "R$ 10.00",
+            "calorias": "130kcal",
+            "tempoPreparo": "20 minutos"
+          }
+          
+      ]
+    }
+  }
+  

@@ -1,0 +1,105 @@
+{
+    "imobiliaria": {
+      "imovel": [
+        {
+          "descricao": "Casa do neymar",
+          "proprietario": {
+            "nome": "Neymar Jr",
+            "email": "Ney.jr@gmail.com",
+            "telefone": ["9985544771", "9784551122"]
+          },
+          "endereco": {
+            "rua": "Rua aribaba",
+            "bairro": "Centro",
+            "cidade": "Arabia saudita",
+            "numero": "11"
+          },
+          "caracteristicas": {
+            "tamanho": 220.0,
+            "numQuartos": 5,
+            "numBanheiros": 5
+          },
+          "valor": "R$ 900.000,00"
+        },
+        {
+          "descricao": "Apartamento do ney",
+          "proprietario": {
+            "nome": "Ney Jr",
+            "email": "ney.lindo@gmail.com",
+            "telefone": ["96564411221"]
+          },
+          "endereco": {
+            "rua": "Rua neymar",
+            "bairro": "Rural",
+            "cidade": "São Paulo",
+            "numero": "10"
+          },
+          "caracteristicas": {
+            "tamanho": 100.0,
+            "numQuartos": 3,
+            "numBanheiros": 2
+          },
+          "valor": "R$ 570.000,00"
+        },
+        {
+          "descricao": "Casa da bruna marquezine",
+          "proprietario": {
+            "nome": "Bruna Marquezine",
+            "email": "bruna.m@gmail.com",
+            "telefone": ["9777544411"]
+          },
+          "endereco": {
+            "rua": "Rua Marquezine",
+            "bairro": "Felipe camarão",
+            "cidade": "Natal",
+            "numero": "157"
+          },
+          "caracteristicas": {
+            "tamanho": 100.0,
+            "numQuartos": 1,
+            "numBanheiros": 1
+          },
+          "valor": "R$ 10.000"
+        },
+        {
+          "descricao": "Casa do messi",
+          "proprietario": {
+            "nome": "Lionel Messi",
+            "email": "messi@gmail.com",
+            "telefone": ["9888556445"]
+          },
+          "endereco": {
+            "rua": "Rua Goat",
+            "bairro": "Barcelona",
+            "cidade": "Catalunha"
+          },
+          "caracteristicas": {
+            "tamanho": 300.0,
+            "numQuartos": 7,
+            "numBanheiros": 7
+          },
+          "valor": "R$ 800.000,00"
+        },
+        {
+          "descricao": "Sítio do bastin",
+          "proprietario": {
+            "nome": "Bastin Melo",
+            "email": "Bastin@gmail.com",
+            "telefone": ["915719000"]
+          },
+          "endereco": {
+            "rua": "bastin",
+            "bairro": "Comunidade dos bastin",
+            "cidade": "Santa Maria",
+            "numero": "190"
+          },
+          "caracteristicas": {
+            "tamanho": 50.0,
+            "numQuartos": 2,
+            "numBanheiros": 1
+          },
+          "valor": "R$ 1.000"
+        }
+      ]
+    }
+  }
