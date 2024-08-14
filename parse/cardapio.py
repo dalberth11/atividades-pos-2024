@@ -1,6 +1,7 @@
 from xml.dom.minidom import parse
 
-dom = parse ("parse/cardapio.xml")
+dom = parse("C:\\Users\\Genubia\\Desktop\\atividades-pos-2024-1\\parse\\cardapio.xml")
+
 cardapio = dom.documentElement
 pratos = cardapio.getElementsByTagName("prato")
 
@@ -11,8 +12,12 @@ for prato in pratos:
     print(f" Prato {prato_id }: {nome}")  
  
 
-prato_id = int(input("DIGITE O ID DO PRATO/CARDAPIO: "))
-prato = pratos [prato_id]
+try:
+    prato_id = int(input("DIGITE O ID DO PRATO/CARDAPIO: ")) - 1  
+    prato = pratos[prato_id]
+except (ValueError, IndexError):
+    print("ID do prato inválido.")
+    exit()
 
 descricao = prato.getElementsByTagName("descricao")[0].firstChild.nodeValue 
 ingredientes = prato.getElementsByTagName("ingrediente")

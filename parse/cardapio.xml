@@ -1,14 +1,14 @@
-<?xml version="1.0" codificacao ="utf-8"?>
-<! DOCTYPE cardapio SYSTEM "definicoes.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
     <prato id="01">
         <nome>Miojo</nome>
         <descricao>O macarrão instantâneo ou massa instantânea é um prato típico da culinária japonesa constituído de macarrão pré-cozido, normalmente lámen, que pode ser preparado apenas com o acréscimo de água fervida.</descricao>
         <ingredientes>
-            <ingrediente> Água fervida </ingrediente>
-            <ingrediente>  macarrão </ingrediente>
+            <ingrediente>Água fervida</ingrediente>
+            <ingrediente>macarrão</ingrediente>
         </ingredientes>
-        <preco>7,00R$</preco>
+        <preco>R$ 7,00</preco>
         <calorias>380kcal</calorias>
         <tempoPreparo>3 min</tempoPreparo>
     </prato>
@@ -16,16 +16,16 @@
         <nome>X-Frango</nome>
         <descricao>Prato típico brasileiro</descricao>
         <ingredientes>
-            <ingrediente> Pão </ingrediente>
-            <ingrediente> Hamburguer </ingrediente>
-            <ingrediente> Tomate </ingrediente>
-            <ingrediente> Alface </ingrediente>
-            <ingrediente> Frango </ingrediente>
-            <ingrediente> presunto </ingrediente>
-            <ingrediente> queijo </ingrediente>
-            <ingrediente> molho </ingrediente>
+            <ingrediente>Pão</ingrediente>
+            <ingrediente>Hamburguer</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>presunto</ingrediente>
+            <ingrediente>queijo</ingrediente>
+            <ingrediente>molho</ingrediente>
         </ingredientes>
-        <preco> 10,00R$</preco>
+        <preco>R$ 10,00</preco>
         <calorias>780kcal</calorias>
         <tempoPreparo>10 min</tempoPreparo>
     </prato>
@@ -34,14 +34,14 @@
         <nome>Bolo de cenoura</nome>
         <descricao>Bolo típico brasileiro</descricao>
         <ingredientes>
-            <ingrediente> 2 cenouras descascadas e picadas grosseiramente </ingrediente>
-            <ingrediente> 1 xícara (chá) de Margarina Qualy Aéra (mais um pouco para untar a forma) </ingrediente>
-            <ingrediente> 3 ovos </ingrediente>
-            <ingrediente> 1½ xícara (chá) de açúcar </ingrediente>
-            <ingrediente> 2 xícaras (chá) de farinha de trigo (mais um pouco para enfarinhar a forma) </ingrediente>
-            <ingrediente> 1 colher (sopa) de fermento químico em pó </ingrediente>
+            <ingrediente>2 cenouras descascadas e picadas grosseiramente</ingrediente>
+            <ingrediente>1 xícara (chá) de Margarina Qualy Aéra (mais um pouco para untar a forma)</ingrediente>
+            <ingrediente>3 ovos</ingrediente>
+            <ingrediente>1½ xícara (chá) de açúcar</ingrediente>
+            <ingrediente>2 xícaras (chá) de farinha de trigo (mais um pouco para enfarinhar a forma)</ingrediente>
+            <ingrediente>1 colher (sopa) de fermento químico em pó</ingrediente>
         </ingredientes>
-        <preco>25,00R$</preco>
+        <preco>R$ 25,00</preco>
         <calorias>415kcal</calorias>
         <tempoPreparo>45 min</tempoPreparo>
     </prato>
@@ -50,14 +50,14 @@
         <nome>Arroz</nome>
         <descricao>Não pode faltar no almoço, comida que combina perfeitamente com um feijão</descricao>
         <ingredientes>
-            <ingrediente> 1 xícara de arroz lavado  </ingrediente>
-            <ingrediente> 1 dente de alho amassado  </ingrediente>
-            <ingrediente> azeite o suficiente  </ingrediente>
-            <ingrediente> 2 xícaras de água fervente  </ingrediente>
-            <ingrediente> 1/4 de cebola picada  </ingrediente>
-            <ingrediente> sal a gosto  </ingrediente>
+            <ingrediente>1 xícara de arroz lavado</ingrediente>
+            <ingrediente>1 dente de alho amassado</ingrediente>
+            <ingrediente>azeite o suficiente</ingrediente>
+            <ingrediente>2 xícaras de água fervente</ingrediente>
+            <ingrediente>1/4 de cebola picada</ingrediente>
+            <ingrediente>sal a gosto</ingrediente>
         </ingredientes>
-        <preco>10,00R$</preco>
+        <preco>R$ 10,00</preco>
         <calorias>130kcal</calorias>
         <tempoPreparo>20 min</tempoPreparo>
     </prato>
@@ -66,17 +66,16 @@
         <nome>Pastel</nome>
         <descricao>Prato típico brasileiro</descricao>
         <ingredientes>
-            <ingrediente> 1 kg de farinha de trigo  </ingrediente>
-            <ingrediente> 1 colher (sopa) sal </ingrediente>
-            <ingrediente> 1/2 dose de pinga  </ingrediente>
-            <ingrediente> 250 ml de água </ingrediente>
-            <ingrediente> 1/2 xícara (chá) de óleo  </ingrediente>
-            <ingrediente> 1 ovo </ingrediente>
-            <ingrediente> 1 colher (chá) vinagre </ingrediente>
+            <ingrediente>1 kg de farinha de trigo</ingrediente>
+            <ingrediente>1 colher (sopa) sal</ingrediente>
+            <ingrediente>1/2 dose de pinga</ingrediente>
+            <ingrediente>250 ml de água</ingrediente>
+            <ingrediente>1/2 xícara (chá) de óleo</ingrediente>
+            <ingrediente>1 ovo</ingrediente>
+            <ingrediente>1 colher (chá) vinagre</ingrediente>
         </ingredientes>
-        <preco>9,00R$</preco>
+        <preco>R$ 9,00</preco>
         <calorias>93kcal</calorias>
         <tempoPreparo>30 min</tempoPreparo>
     </prato>
 </cardapio>
-```
