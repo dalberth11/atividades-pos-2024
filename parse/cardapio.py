@@ -1,20 +1,20 @@
 from xml.dom.minidom import parse
 
-dom = parse("parse/cardapio.xml")
+dom = parse ("parse/cardapio.xml")
 cardapio = dom.documentElement
-pratos_cardapio = cardapio.getElementsByTagName("prato")
+pratos = cardapio.getElementsByTagName("prato")
 
-for prato in pratos_cardapio:
+for prato in pratos:
     
-    id_cardapio = prato.getAttribute("id")
+    prato_id = prato.getAttribute("id")
     nome = prato.getElementsByTagName("nome")[0].firstChild.nodeValue
-    print(f" Prato {id_cardapio }: {nome}")  
+    print(f" Prato {prato_id }: {nome}")  
  
 
 prato_id = int(input("DIGITE O ID DO PRATO/CARDAPIO: "))
-prato = pratos_cardapio [prato_id]
+prato = pratos [prato_id]
 
-Descricao = prato.getElementsByTagName("descricao")[0].firstChild.nodeValue 
+descricao = prato.getElementsByTagName("descricao")[0].firstChild.nodeValue 
 ingredientes = prato.getElementsByTagName("ingrediente")
 ingredientes = [ingrediente.firstChild.nodeValue for ingrediente in ingredientes]
 preco = prato.getElementsByTagName("preco")[0].firstChild.nodeValue 
@@ -22,10 +22,11 @@ calorias = prato.getElementsByTagName("calorias")[0].firstChild.nodeValue
 tempoPreparo = prato.getElementsByTagName("tempoPreparo")[0].firstChild.nodeValue 
 
 
-print(f"nome: {nome}")
-print(f"Descrição: {Descricao}")
+print(f"Nome do Prato: {nome}")
+print(f"Descrição do Prato: {descricao}")
 print(f"Ingredientes:")
 print(f"\n".join(ingredientes))
-print(f"Preço: R${preco}")
-print(f"Calorias: {calorias} Kilocaloria")
+print(f"Preço do Prato: R${preco}")
+print(f"Calorias do Prato: {calorias} Kilocaloria")
 print(f"Tempo de Preparo: {tempoPreparo}")
+
