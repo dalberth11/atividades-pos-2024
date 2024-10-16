@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>LISTA DE POKÉMON</h1>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Pesquisar Pokémon..." />
+            <button id="searchButton" class="search-btn">Buscar</button>
+        </div>
+        
+        <!-- Dropdown para filtrar por tipo -->
+        <div class="type-filter">
+            <label for="pokemonType">Filtrar por tipo:</label>
+            <select id="pokemonType">
+                <option value="">Selecione um tipo</option>
+            </select>
+            <button id="filterButton" class="filter-btn">Filtrar</button>
+        </div>
+
+        <div class="container">
+            <div class="pokemon-list" id="pokemonList">
+                <!-- Lista de Pokémon será gerada aqui -->
+            </div>
+            <div class="pokemon-details" id="pokemonDetails">
+                <!-- Detalhes do Pokémon selecionado aparecerão aqui -->
+            </div>
+        </div>
+        <div class="pagination">
+            <button id="prev" class="pagination-btn" disabled>
+                <span class="arrow left"></span> Anterior
+            </button>
+            <button id="next" class="pagination-btn">
+                Próximo <span class="arrow right"></span>
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
