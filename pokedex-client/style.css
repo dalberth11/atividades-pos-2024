@@ -1,0 +1,149 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #ffcb05;
+  color: #2a75bb;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#searchInput {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #2a75bb;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #2a75bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+  background-color: #1a4f75;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.pokemon-list, .pokemon-details {
+  width: 48%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  min-height: 400px;
+}
+
+.pokemon-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pokemon-list li {
+  padding: 15px;
+  border-bottom: 1px solid #ececec;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pokemon-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.pokemon-details h2 {
+  color: #ffcb05;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pagination-btn {
+  padding: 10px 25px;
+  margin: 10px;
+  border: none;
+  background-color: #2a75bb;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.pagination-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background-color: #1a4f75;
+}
+
+.pagination-btn .arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+  transform: rotate(135deg);
+}
+
+.pagination-btn .arrow.right {
+  transform: rotate(-45deg);
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.type-filter {
+  text-align: center;
+  margin: 20px;
+}
+  
+#pokemonType {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #2a75bb;
+  outline: none;
+}
+  
+.filter-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #2a75bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+  
+.filter-btn:hover {
+      background-color: #1a4f75;
+}
+  
+
