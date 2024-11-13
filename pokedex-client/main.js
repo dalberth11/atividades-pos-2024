@@ -1,24 +1,28 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+const BASE_URL = 'https://api.exemplo.com';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+// Função para buscar dados iniciais do contador
+export async function fetchCounterData() {
+    try {
+        const response = await fetch(`${BASE_URL}/counter/initial`);
+        if (!response.ok) throw new Error('Erro ao buscar dados do contador');
+        return await response.json();
+    } catch (error) {
+        console.error('Erro:', error);
+        throw error;
+    }
+}
 
-setupCounter(document.querySelector('#counter'))
+// Função para incrementar o contador na API
+export async function incrementCounterData() {
+    try {
+        const response = await fetch(`${BASE_URL}/counter/increment`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+        });
+        if (!response.ok) throw new Error('Erro ao incrementar o contador');
+        return await response.json();
+    } catch (error) {
+        console.error('Erro:', error);
+        throw error;
+    }
+}
